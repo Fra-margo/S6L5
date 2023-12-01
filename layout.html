@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Netflix HomePage</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../assetsNetflix/netflix_logo.png" alt="logoNetflix" width="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-secondary" href="layout.html">
+                               Home
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white fw-bold" href="#">
+                               TV Shows
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-secondary" href="#">
+                               Movies
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-secondary" href="#">
+                               Recently Added
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-secondary" href="#">
+                               My List
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="me-1">
+                            <button class="btn my-2 my-sm-0" type="submit">
+                                <i class="fa-solid fa-magnifying-glass" style="color: #f4f4f4;"></i>
+                            </button>
+                        </div>
+                        <div class="d-flex align-items-center me-3"><p class="mb-0">KIDS</p></div>
+                        <i class="fa-solid fa-bell me-2" style="color: #f4f4f4;"></i>
+                        <div class="avatar-icon dropdown rounded-circle position-relative bg-dark mt-2">
+                            <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../assetsNetflix/avatar.png" alt="logo avatar" width="40">
+                                <span class="dot bg-green position-absolute bottom-right"></span>
+                                <div class="avatar-dropdown dropdown-menu dropdown-menu-end border-0 shadow-lg py-3"
+                                    aria-label="User Account">
+                                    <div class="d-flex px-3 pb-1" style="gap: 6px">
+                                        <div class="avatar-icon rounded-circle position-relative bg-secondary me-2">
+                                            <img src="../assetsNetflix/avatar.png" alt="logo avatar" width="50" class="rounded-circle">
+                                            <span class="dot bg-green position-absolute bottom-right"></span>
+                                        </div>
+                                        <div class="avatar-menu-header">
+                                            <h5 class="font-sm mb-0">Francesco Margotta</h5>
+                                            <p class="font-sm mb-0 text-muted">margot.f.98@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item px-3" href="#">
+    
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-user">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                        <span class="ms-2">Profile</span></a>
+                                    <a class="dropdown-item px-3" href="#">
+    
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <span class="ms-2">Subscription</span></a>
+                                    <a class="dropdown-item px-3" href="profilo.html" onclick="window.location.href='profilo.html';">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-settings">
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                            <path
+                                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                            </path>
+                                        </svg>
+                                        <span class="ms-2">Settings</span></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item px-3" href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-power">
+                                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                                        </svg>
+                                        <span class="ms-2">Sign Out</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="d-flex justify-content-between mt-3">
+            <div class="d-flex align-items-center">
+                <h1 class="me-5">TV Show</h1>
+                <div class="form">
+                    <select class="form-select bg-dark text-white fw-bold custom-border">
+                      <option selected>Genres</option>
+                      <option value="1">Action</option>
+                      <option value="2">Horror</option>
+                      <option value="3">Comedy</option>
+                      <option value="4">Dramatic</option>
+                      <option value="5">Thriller</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-align-left me-3" style="color: #808080;"></i>
+                <i class="fa-solid fa-grip" style="color: #808080;"></i>
+            </div>           
+        </div>
+        <section>
+            <h3>Trending Now</h3>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-flex no-gutters no-gutters-row">
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media0.webp" alt="imgSherlock" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media1.jpg" alt="imgAmericanFactory" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media2.webp" alt="imgTheGoodPlace" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media3.webp" alt="imgGenius" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media4.jpg" alt="imgCuba" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media5.webp" alt="imgTheChina" class="w-100"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+                <h3>Watch It Again</h3>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row d-flex no-gutters no-gutters-row">
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media6.jpg" alt="imgSocial" class="w-100"></div>
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media7.webp" alt="imgArog" class="w-100"></div>
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media8.webp" alt="imgYahsi" class="w-100"></div>
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media9.jpg" alt="imgConnected" class="w-100"></div>
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media10.jpg" alt="imgSpy" class="w-100"></div>
+                            <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media11.jpg" alt="imgTheCollege" class="w-100"></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <h3>New Releases</h3>   
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-flex no-gutters no-gutters-row">
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media12.jpg" alt="imgTribes" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media13.jpg" alt="imgNarcos" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media14.webp" alt="imgBreaking" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media15.jpg" alt="imgExplained" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media16.webp" alt="imgRick&Morty" class="w-100"></div>
+                        <div class="col-2 no-gutters-col"><img src="../assetsNetflix/media/media17.jpg" alt="imgWhiteHelmets" class="w-100"></div>
+                    </div>
+                </div>
+            </div>         
+        </section>
+    </main>
+        <footer class="container">
+            <div class="row text-left">
+                <div class="col-md-12 mb-3">
+                    <i class="fab fa-facebook-square fa-2x me-3" style="color: #808080;"></i>
+                    <i class="fab fa-instagram fa-2x me-3" style="color: #808080;"></i>
+                    <i class="fab fa-twitter fa-2x me-3" style="color: #808080;"></i>
+                    <i class="fab fa-youtube fa-2x" style="color: #808080;"></i>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Audio and Subtitles</a></li>
+                        <li><a href="#">Media Center</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Audio Description</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Corporate Informations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-secondary custom-border btn-sm">Service Code</button>
+                </div>
+                <div>
+                    <p class="text-secondary mt-3 small">&copy; 1997-2019 Netflix, Inc</p>
+                </div>
+            </div>
+        </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/564f83cc10.js" crossorigin="anonymous"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

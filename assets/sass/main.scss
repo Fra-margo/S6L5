@@ -1,0 +1,57 @@
+@import "variabili";
+@import "bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: $dark;
+    color: $white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section{
+    margin-top: 50px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.custom-border{
+    border-radius: 0;
+}
+
+.no-gutters-row{
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.no-gutters-col{
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+footer{
+    margin:100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: $secondary;
+}
+
+.form-control::placeholder{
+    color: $white
+}
+
+.btn-custom{
+    background-color: $coloreBtn;
+}
+
+.custom-checkbox{
+    transform: scale(2);
+}
+
+.custom-fs{
+    font-size: 0.8em;
+}

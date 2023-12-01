@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Profilo Netflix</title>
+</head>
+<body>
+<header>
+<img src="../assetsNetflix/netflix_logo.png" alt="logoNetflix" width="100">
+</header>
+<main class="container mt-4 w-75">
+    <div class="container w-75">
+        <div class="container-fluid border-bottom border-secondary">
+            <h1 class="border-bottom border-secondary">Edit Profile</h1>
+            <div class="d-flex mt-4">
+                <div class="me-3">
+                    <img src="../assetsNetflix/avatar.png" alt="logoAccount" width="150">
+                </div>
+                <div class="mt-1">
+                    <input type="text" class="form-control bg-secondary custom-border border-0 mb-4" placeholder="Francesco Margotta" aria-label="Francesco Margotta" aria-describedby="basic-addon1">
+                    <div class="border-bottom border-secondary pb-3">
+                        <h5 class="mt-3 mb-1 text-secondary">Language:</h5>
+                        <div class="form w-50">
+                            <select class="form-select form-select-sm bg-dark text-white fw-bold custom-border">
+                              <option selected>English</option>
+                              <option value="1">Italiano</option>
+                              <option value="2">Spanish</option>
+                              <option value="3">Chinese</option>
+                              <option value="4">Russian</option>
+                              <option value="5">Japanese</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="border-bottom border-secondary pb-3">
+                        <h5 class="mt-3 mb-1 text-secondary">Maturity Settings:</h5>
+                        <button type="button" class="btn btn-secondary text-white fw-bold btn-custom mt-2">ALL MATURITY RATINGS</button>
+                        <p class="mt-2">Show titles of <span class="fw-bold">all maturiy ratings </span> for this profile.</p>
+                        <button type="button" class="btn btn-outline-secondary custom-border" style="width: 100px;">EDIT</button>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="mt-3 mb-1 text-secondary">Autoplay controls</h5>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input bg-dark border-secondary custom-checkbox me-3" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label custom-fs" for="flexCheckChecked">
+                             Autoplay next episode in a series on all devices.
+                            </label>
+                          </div>
+                          <div class="form-check mt-3">
+                            <input class="form-check-input bg-dark border-secondary custom-checkbox me-3" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label custom-fs" for="flexCheckChecked">
+                             Autoplay previews while browsing on all devices.
+                            </label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between mt-3">
+            <button type="button" class="btn btn-outline-white
+            bg-white custom-border fw-bold" style="width: 20%">SAVE</button>
+            <button type="button" class="btn btn-outline-secondary custom-border ms-3" style="width: 30%">CANCEL</button>
+            <button type="button" class="btn btn-outline-secondary custom-border ms-3" style="width: 50%">DELETE PROFILE</button>
+        </div>
+        </div>
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/564f83cc10.js" crossorigin="anonymous"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
